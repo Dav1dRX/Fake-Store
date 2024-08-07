@@ -1,0 +1,31 @@
+.product-slider {
+  margin: 40px 0;
+}
+
+.slider-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.slider-product img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.slider-product h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.slider-product p {
+  font-weight: bold;
+  color: var(--primary-color);
+}
